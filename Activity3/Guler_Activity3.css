@@ -4,7 +4,7 @@ CSS styles for Ultimate frisbee page
 */
 
 body {
-  color: #bba363;
+  color: #a18c52;
   font: 20pt bold;
   background-repeat: no-repeat;
   background-image:url("coffee2.jpg");
@@ -69,7 +69,7 @@ h2,h1{
 background-color: #6bb3cf;
 }
 .altrow:nth-child(odd) {
-	background-color: #688fbd;
+	background-color: #cad4e0;
 ;}
 .altrow:nth-child(even) {
 	background-color: #f2e6d9;
