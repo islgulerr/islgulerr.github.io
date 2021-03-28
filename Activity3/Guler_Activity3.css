@@ -1,0 +1,76 @@
+/*
+Lab 3 CSS styles
+CSS styles for Ultimate frisbee page
+*/
+
+body {
+  color: #b38300;
+  font: 20pt bold;
+  background-repeat: no-repeat;
+  background-image:url("coffee.png");
+  background-size: cover;
+}
+
+footer {
+	text-align: center;
+	font-size: small;
+}
+
+li{
+	list-style-type: square;
+}
+
+header{
+	text-align: center;
+}
+
+img{
+	border: 1px solid #2e1405;
+}
+th, td 
+{
+	border: 1px solid #2e1405;
+	padding: .2em .1em .2em .5em;
+	text-align: left;
+	vertical-align: middle;
+}
+th{
+	background-color: #ecd9c6;
+	text-align:center;
+	color:#163763;
+}
+
+footer {
+   font-size:small;
+   text-align: center;
+}
+h1.a{
+	text-align:center;
+	font: italic bold;
+	font-size: 28px;
+	color:#2d5583
+}
+h2.a{
+	font: italic bold;
+	font-size: 28px;
+	color:#2d5583
+}
+h2.b{
+	font: italic bold;
+	font-size: 28px;
+	color:#2d5583;
+}
+h2.c{
+	font: italic bold;
+	font-size: 28px;
+	color:#2d5583;
+}
+h2,h1{
+background-color: #6bb3cf;
+}
+.altrow:nth-child(odd) {
+	background-color: #2d5583;
+;}
+.altrow:nth-child(even) {
+	background-color: #f2e6d9;
+	}
