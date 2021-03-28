@@ -7,7 +7,7 @@ body {
   color: #bba363;
   font: 20pt bold;
   background-repeat: no-repeat;
-  background-image:url("coffee.png");
+  background-image:url("coffee2.jpg");
   background-size: cover;
 }
 
@@ -69,7 +69,7 @@ h2,h1{
 background-color: #6bb3cf;
 }
 .altrow:nth-child(odd) {
-	background-color: #2d5583;
+	background-color: #688fbd;
 ;}
 .altrow:nth-child(even) {
 	background-color: #f2e6d9;
