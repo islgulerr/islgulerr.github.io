@@ -44,6 +44,37 @@ nav ul li a:hover{
 nav ul li .active{
 	color:#c0d96f;
 }
+
+nav .fas{
+	margin-right: 8px;
+}
+
+.sub-menu-1{
+	display: none;
+}
+
+nav ul li:hover .sub-menu-1{
+	display: block;
+	position: absolute;
+	background-color: #505d61;
+	margin-top: 15px;
+	margin-left: -15px;
+	font-size: 5px;
+}
+
+nav ul li:hover .sub-menu-1 ul{
+	display: block;
+}
+
+nav ul li:hover .sub-menu-1 ul li{
+	width: 150px;
+	padding: 10px;
+	border-bottom: 1px dotted #fff;
+	background: transparent;
+	text-align: left;
+	border-radius: 0;
+	cursor: pointer;
+}
 .image img{
 	width: 100%;
 	height: 0px auto;
