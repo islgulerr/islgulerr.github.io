@@ -3,7 +3,7 @@ var count = 0;
 var speed = 500;
 
 
-button.addEventListener("mouseover",()=>setTimeout(change,speed),false);
+button.addEventListener("mouseover",()=>setTimeout(change,speed));
 
 var m_button = document.getElementById("movingbutton");
 
@@ -12,7 +12,7 @@ m_button.onclick = function(){
 	console.log('here',count);
 	if(count==3){
 		alert("Level 2")
-		timeout = timeout-100; // decrease the timeout by 100ms
+		timeout = timeout-100;
 	}
 	if(count==6){
 		alert("Level 3")
