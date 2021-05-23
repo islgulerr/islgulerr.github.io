@@ -12,19 +12,23 @@ m_button.onclick = function(){
 	console.log('here',count);
 	if(count==3){
 		alert("Level 2")
-		speed = speed-100;
-	}else if(count==6){
+		timeout = timeout-100; // decrease the timeout by 100ms
+	}
+	if(count==6){
 		alert("Level 3")
-		speed = speed-100;
-	}else if(count==9){
+		timeout = timeout-100;
+	}
+	if(count==9){
 		alert("Level 4")
-		speed = speed-100;
-	}else if(count==12){
+		timeout = timeout-100;
+	}
+	if(count==12){
 		alert("Level 5")
-		speed = speed-100;
-	}else if(count==15){
+		timeout = timeout-100;
+	}
+	if(count==15){
 		alert("Level 6")
-		speed = speed-100;
+		timeout = timeout-100;
 	}
 }
 
