@@ -3,7 +3,7 @@ var count = 0;
 var speed = 500;
 
 
-button.addEventListener("mouseover",()=>setTimeout(change,speed));
+button.addEventListener("mouseover",()=>setTimeout(change,speed),false);
 
 var m_button = document.getElementById("movingbutton");
 
