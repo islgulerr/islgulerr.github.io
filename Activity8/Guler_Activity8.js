@@ -1,6 +1,7 @@
+var button = document.querySelector("#movingbutton");
 var count = 0;
 var speed = 500;
-var button = document.querySelector("#movingbutton");
+
 
 button.addEventListener("mouseover",()=>setTimeout(change,speed));
 
