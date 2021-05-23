@@ -1,0 +1,15 @@
+#movingbutton{
+    display: block;
+    position: absolute;
+	background-color: #8a530d;
+	padding: 15px 32px;
+  border-radius: 12px;
+}
+body{
+  width : 100%;
+  background-color: rgb(219, 218, 166);
+}
+.ctr{
+  width : 100%;
+  height : 100%;
+}
