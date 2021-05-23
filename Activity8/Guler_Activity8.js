@@ -1,19 +1,10 @@
 var count = 0;
 var speed = 500;
 var button = document.querySelector("#movingbutton");
-var m_button = document.getElementById("movingbutton");
-
 
 button.addEventListener("mouseover",()=>setTimeout(change,speed));
 
-function change()
-{
-let i = Math.floor(Math.random()*300)+1;
-let j = Math.floor(Math.random()*300)+1;
-    button.style.left = i + "px";
-    button.style.top = j + "px";
-	
-};
+var m_button = document.getElementById("movingbutton");
 
 m_button.onclick = function(){
 	count++;
@@ -35,3 +26,12 @@ m_button.onclick = function(){
 		speed = speed-100;
 	}
 }
+
+function change()
+{
+let i = Math.floor(Math.random()*300)+1;
+let j = Math.floor(Math.random()*300)+1;
+    button.style.left = i + "px";
+    button.style.top = j + "px";
+	
+};
