@@ -6,10 +6,6 @@
       border-radius: 12px;
 }
 
-button{
-  position: absolute;
-}
-
 body{
   width : 100%;
   background-image: url('cloud.jpg')
