@@ -2,7 +2,6 @@ var button = document.querySelector("#movingbutton");
 var count = 0;
 var speed = 500;
 
-
 button.addEventListener("mouseover",()=>setTimeout(change,speed));
 
 var m_button = document.getElementById("movingbutton");
@@ -14,19 +13,19 @@ m_button.onclick = function(){
 		alert("Level 2")
 		speed = speed-100;
 	}
-	if(count==6){
+	else if(count==6){
 		alert("Level 3")
 		speed = speed-100;
 	}
-	if(count==9){
+	else if(count==9){
 		alert("Level 4")
 		speed = speed-100;
 	}
-	if(count==12){
+	else if(count==12){
 		alert("Level 5")
 		speed = speed-100;
 	}
-	if(count==15){
+	else if(count==15){
 		alert("Level 6")
 		speed = speed-100;
 	}
