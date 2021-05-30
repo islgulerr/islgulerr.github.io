@@ -4,7 +4,9 @@
 	margin-bottom:8px;
    }
    .button {
-   border-radius: 6px;
+   border-radius: 10px;
+   float: left;
+   margin:15px;
    }
    label {
     display: block;
