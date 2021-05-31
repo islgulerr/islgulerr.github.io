@@ -1,0 +1,9 @@
+ -3 jQuery plugins and 1 jQuery-UI widget-
+
+Here, firstly, I used a date selection tool as a jQuery-UI widget that will show the events available for the date selected by the user on the EVENTS page on the site.
+
+I used the first jQuery plugin in the GALLERY on the bar. Here, the photos of the events that the user wants to see are displayed by filtering the images according to the event types.
+
+Secondly, I added the user quick contact tool at the bottom right of the CONTACT page. This plugin is used for notification of various questions and problems according to the service choice of the user.
+
+Finally, on the SIGN IN page, I chose to use a login plugin for the user to login to the site. Here, the user can log in by entering their e-mail and password information.

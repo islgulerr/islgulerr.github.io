@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navigation Bar</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+	<link rel="stylesheet" type="text/css" href="chatBot.css">
+
+</head>
+<body bgcolor="b2b2b2">
+
+<div class="chat_icon">
+	<img src="img/chat-2.png" alt="chat">
+</div>
+
+<div class = "chatbot-box">
+	<div id="chatList">
+		<ul>
+
+		</ul>
+	</div>
+	<div class="message-box-wrap">
+		<div class="message-box">
+
+		</div>
+		<button id="send">></button>
+	</div>
+
+	<div class="admin-client-message-wrap">
+		<select name="service" data-question="Which service you went">
+			<option>Please select</option>
+			<option>Events</option>
+			<option>Projects</option>
+			<option>Problems</option>
+		</select>
+		<input type="text" name="name" data-question="What is your name">
+		<input type="text" name="email" data-question="What is your email" data-name required>
+		<input type="text" name="phone" data-question="What is your phone">
+		<div data-question="Confirm ?">
+			<button id="confirm">Yes</button>
+			<button id="notconfirm">No</button>
+		</div>
+	</div>
+	<form id="submit_info_form">
+		<div class="submit_info"></div>
+		<input type="submit" value="Send" id="submit" name="">
+
+	</form>
+</div>
+
+
+	<nav>
+		<div class="logo">
+			<p>eventworld</p>
+		</div>
+		<ul>
+			<li><a href="index.html" class="active"><i class="fa fa-home"></i>home</a></li>
+			<li><a href="events.html"><i class="fa fa-calendar"></i>events</a>
+				<div class="sub-menu-1">
+					<ul>
+						<li><a href="past-events.html">past events</a></li>
+						<li><a href="#">ongoing events</a></li>
+						<li><a href="#">future events</a></li>
+					</ul>
+				</div>
+			
+			</li>
+			<li><a href="projects.html"><i class="fa fa-users"></i>projects</a>
+			
+				<div class="sub-menu-2">
+					<ul>
+						<li><a href="#">past projects</a></li>
+						<li><a href="#">ongoing projects</a></li>
+						<li><a href="#">future projects</a></li>
+					</ul>
+				</div>
+			
+			</li>
+			<li><a href="gallery.html"><i class="fa fa-camera"></i>gallery</a></li>
+			<li><a href="comments.html"><i class="fa fa-comment"></i>comments</a></li>
+			<li><a href="contact.html"><i class="fas fa-phone"></i>contact</a></li>
+			<li><a href="sign.html"><i class="fa fa-user"></i>sign in</a></li>
+		</ul>
+	</nav>
+
+	<script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script type="text/javascript" src="chatBot.js"></script>
+
+
+	<div align="center"><p><font color="#473c8b"> This page supports needs of users will be met</font></p> </div>
+	<div class="footer">
+        <p>Copyright 2021 &copy;EventWorld<br>
+            manager@eventworld.com</p>
+    </div>
+</body>
+</html>
