@@ -4,6 +4,7 @@
 	padding:0px;
 	box-sizing:border-box;
 	font-family: 'Poppins',sans-serif;
+
 }
 nav{
 	background-color: #505d61;
@@ -145,6 +146,7 @@ nav ul li:hover .sub-menu-2 ul li{
   top: 550px;
   transform: translate(-50%, -50%);
   width: 90vmin;
+  
 }
 .animated-title > div {
   height: 50%;
@@ -172,7 +174,8 @@ nav ul li:hover .sub-menu-2 ul li{
   transform: translate(0, 100%);
 }
 .animated-title > div.text-top div span:first-child {
-  color: #767676;
+  color: #e7dfdf;
+  
 }
 .animated-title > div.text-bottom {
   bottom: 0;
